@@ -1,0 +1,498 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: auto;
+   width: 100% ;
+}
+nav{
+    width: 100%;
+    background-color: rgb(7 11 21);
+    height: 9vh;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 2rem;
+    padding-right:5rem ;
+   align-items: center;
+   position: fixed;
+   z-index: 9999;
+}
+
+
+a{
+    color: #697fa8 !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    /* text-shadow: 2px 2px 5px red !important; */
+   color: #ffffff !important;
+    border: 0.5rem solid #122038(14, 161, 169);
+    border-radius: 1rem;
+    
+}
+.h2{
+    color: #ffffff !important;
+    /* padding-right: 35rem; */
+    font-family: "Mr Dafoe", cursive;
+}
+
+
+
+
+
+
+#home{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(9 17 31);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+
+
+.parent2{
+    width: 30%;
+    height: 68vh;
+    background-image: url(./WhatsApp\ Image\ 2026-08-07\ at\ 16.20.42.jpeg);
+    border-radius: 50%;
+    box-shadow: 0px 14px 20px 0px #728afa;
+}
+
+#first{
+    width: 30%;
+    height: 4vh;
+    background-color: #122038;    ;
+    /* border-radius: 10%; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.Button1{
+    width: 77%;
+    height: 6vh;
+    background-color:#4d8bff;
+    border: none;
+    border-radius:10px !important;
+}
+button:hover{
+    background-color: #1c5acb !important;
+    text-shadow: 0px 0px 7px #5687e3 !important;
+    
+}
+
+/* --------------------------------------------------------- */
+
+#aboutme{
+    width: 100%;
+    height: 113vh;
+    background-color: #122038; 
+}
+
+.ABOUTME1{
+    width: 100%;
+    height: 30vh;
+    background-color: #122038;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.mainABOUT{
+    display: flex;
+}
+.ABOUTME2{
+    width: 45%;
+    height: 80vh;
+    background-color: #122038;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+}
+
+
+
+
+
+.ABOUTME3{
+    width: 55%;
+    height: 80vh;
+    background-color: #122038; 
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    padding: 3rem
+}
+
+
+/* ----------------------------------------------------- */
+
+#PROJECTS{
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(9 17 31);
+}
+
+.Work{
+    width: 100%;
+    height: 70vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.MyWork{
+    width: calc(80% / 3);
+    height: 70vh;
+    background-color: #122038;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0px 0px 20px 3px #4d8bff;
+}
+
+.MyWork:hover{
+    box-shadow: -1px 1px 20px 6px #0a58ca;
+}
+
+.WorkSon{
+
+width: 100%;
+height: 40vh;
+background-image: url(./ChatGPT\ Image\ 8\ أغسطس\ 2026،\ 02_43_31\ ص.png);
+background-size: cover;
+background-position: center;
+top: 1rem;
+box-shadow: 0px 0px 20px 3px #4d8bff;
+border-radius: 1rem;
+}
+
+
+#CONTACTME{
+    width: 100%;
+    height: 110vh;
+    background-color: #122038;
+    padding: 0 1rem;
+
+}
+
+#contactme{
+    width: 100%;
+    height: 70vh;
+    /* background-color: aqua; */
+    display: flex;
+}
+#contactme1{
+    width: 40%;
+    height:70vh ;
+    /* background-color:bisque; */
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5cqmax;
+}
+#contactme2{
+    width: 59%;
+    height: 59vh;
+    background-color: #0b1424;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin-top: -2rem;
+    border-radius: 1rem;
+    box-shadow: -9px 13px 20px #0a58ca;
+
+
+}
+
+input::placeholder,
+textarea::placeholder {
+    color:#697fa8;
+   padding-left: 2rem;
+    
+}
+
+
+
+
+@media screen and (max-width :767px){
+
+
+h3{
+    font-size: 14px !important;
+}
+
+b{
+    font-size: 13px !important;
+}
+
+    html,
+    body {
+        overflow-x: hidden;
+        
+    }
+
+    
+ a{
+    /* display: none !important; */
+    color: #ffffff !important;
+ }
+
+ .link{
+    display: none;
+ }
+  
+ #home{
+   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: auto;
+    /* max-width: 80vw !important; */
+    /* background-position: center; */
+    /* background-size: cover !important; */
+    /* overflow: hidden !important; */
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+ 
+    padding-top: 5rem;
+ }
+ 
+ #first{
+    width: 80%;
+ }
+
+h1{
+    width: 100% !important;
+   
+}
+
+.parent2{
+    display: none;
+}
+ 
+.parent1{
+    width: 85% !important;
+}
+.TwoButton{
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 100% !important;
+}
+
+
+
+/* ------------------------------------- */
+
+.mainABOUT{
+    display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+}
+
+.image{
+    width: 90vw !important;
+    height: 55vh !important;
+}
+
+
+#aboutme{
+    height: 172%;
+}
+.ABOUTME1{
+    height: 15vh;
+}
+.ABOUTME2{
+    height: 60vh;
+}
+.ABOUTME3{
+    width: 100%;
+        height: auto;
+        max-width: 120;
+
+        padding: 2rem;
+        display: flex;
+        /* overflow: scroll; */
+}
+.space{
+
+    justify-content: space-between;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0 !important;
+}
+
+
+.spacee{
+   
+    width: 100% !important;
+}
+
+.buton1{
+    width: 50% !important;
+}
+
+
+/* ----------------------------------------------- */
+
+.MyWork {
+    /* width: calc(80% / 3); */
+    height: 67vh;
+    background-color: #122038;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+
+#PROJECTS {
+    width: 100%;
+    height: auto !important;
+    min-height: 260vh;
+    background-color: rgb(9 17 31);
+
+}
+
+.button_high{
+
+width: 58% !important;
+height: 6vh !important;
+
+}
+.Work {
+    width: 100%;
+    height: 200vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-direction: column;
+}
+.high_project{
+    height: 45vh !important;
+}
+.WorkSon {
+    height: 40vh;
+}
+
+
+/* ----------------------------------------------------- */
+
+#contactme{
+    display: flex;
+    flex-direction: column;
+    height: 135vh;
+}
+
+#tall{
+    width: 95% !important;
+}
+
+#contactme1{
+
+    width: 100%;
+    padding: 0 13px;
+    gap: 2rem;
+}
+
+#contactme2{
+    width: 100%;
+    height: 100vh !important;
+    padding: 1rem;
+
+}
+
+.style_data{
+    width: 100% !important;
+    height: 13vh !important;
+}
+
+
+#CONTACTME{
+    height: 180vh !important;
+
+}
+
+form{
+    width: 100%;
+}
+
+.formm{
+    display: flex;
+    flex-direction: column;
+    margin-right: 0 !important;
+}
+
+
+
+
+
+.inputt{
+width: 100% !important;
+
+}
+
+
+
+
+
+.fotter{
+    gap: 0 !important;
+width: 100% !important;
+height: 15vh;
+}
+
+footer{
+    height: 30vh !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+gap: 2rem;
+}
+.My_name{
+    padding-left: 0 !important;
+    width: 100% !important;
+    justify-content: center;
+
+}
+}
