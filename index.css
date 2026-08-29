@@ -1,9 +1,7 @@
 
-
 @import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
 
 
 *{
@@ -14,23 +12,71 @@
 
 body{
     height: auto;
-   width: 100% ;
+    width: 100%;
 }
+
+
+/* =====================================================
+   NAVBAR
+===================================================== */
+
 nav{
     width: 100%;
     background-color: rgb(7 11 21);
     height: 9vh;
     display: flex;
-    align-content: center;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    gap: 2rem;
-    padding-right:5rem ;
-   align-items: center;
-   position: fixed;
-   z-index: 9999;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+    position: fixed;
+    z-index: 9999;
 }
 
+.nav-logo{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-links a{
+    color: #697fa8 !important;
+    text-decoration: none !important;
+}
+
+.nav-links a:hover{
+    color: #ffffff !important;
+}
+
+.hire-btn{
+    background-color: #0d6efd;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 15px;
+}
+
+.hire-btn a{
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
+
+.menu-btn{
+    display: none;
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.mobile-menu{
+    display: none;
+}
 
 a{
     color: #697fa8 !important;
@@ -38,22 +84,20 @@ a{
 }
 
 a:hover {
-    /* text-shadow: 2px 2px 5px red !important; */
-   color: #ffffff !important;
+    color: #ffffff !important;
     border: 0.5rem solid #122038(14, 161, 169);
     border-radius: 1rem;
-    
 }
+
 .h2{
     color: #ffffff !important;
-    /* padding-right: 35rem; */
     font-family: "Mr Dafoe", cursive;
 }
 
 
-
-
-
+/* =====================================================
+   HOME
+===================================================== */
 
 #home{
     width: 100%;
@@ -66,8 +110,6 @@ a:hover {
     flex-direction: row-reverse;
 }
 
-
-
 .parent2{
     width: 30%;
     height: 68vh;
@@ -79,13 +121,11 @@ a:hover {
 #first{
     width: 30%;
     height: 4vh;
-    background-color: #122038;    ;
-    /* border-radius: 10%; */
+    background-color: #122038;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 .Button1{
@@ -95,18 +135,21 @@ a:hover {
     border: none;
     border-radius:10px !important;
 }
+
 button:hover{
     background-color: #1c5acb !important;
     text-shadow: 0px 0px 7px #5687e3 !important;
-    
 }
 
-/* --------------------------------------------------------- */
+
+/* =====================================================
+   ABOUT ME
+===================================================== */
 
 #aboutme{
     width: 100%;
     height: 113vh;
-    background-color: #122038; 
+    background-color: #122038;
 }
 
 .ABOUTME1{
@@ -121,10 +164,10 @@ button:hover{
     align-items: center;
 }
 
-
 .mainABOUT{
     display: flex;
 }
+
 .ABOUTME2{
     width: 45%;
     height: 80vh;
@@ -133,26 +176,23 @@ button:hover{
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-
 }
-
-
-
-
 
 .ABOUTME3{
     width: 55%;
     height: 80vh;
-    background-color: #122038; 
+    background-color: #122038;
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: space-around;
-    padding: 3rem
+    padding: 3rem;
 }
 
 
-/* ----------------------------------------------------- */
+/* =====================================================
+   PROJECTS
+===================================================== */
 
 #PROJECTS{
     width: 100%;
@@ -163,7 +203,6 @@ button:hover{
 .Work{
     width: 100%;
     height: 70vh;
-    /* background-color: aqua; */
     display: flex;
     justify-content: center;
     gap: 4rem;
@@ -187,312 +226,709 @@ button:hover{
 }
 
 .WorkSon{
-
-width: 100%;
-height: 40vh;
-background-image: url(./ChatGPT\ Image\ 8\ أغسطس\ 2026،\ 02_43_31\ ص.png);
-background-size: cover;
-background-position: center;
-top: 1rem;
-box-shadow: 0px 0px 20px 3px #4d8bff;
-border-radius: 1rem;
+    width: 100%;
+    height: 40vh;
+    background-image: url(./ChatGPT\ Image\ 8\ أغسطس\ 2026،\ 02_43_31\ ص.png);
+    background-size: cover;
+    background-position: center;
+    top: 1rem;
+    box-shadow: 0px 0px 20px 3px #4d8bff;
+    border-radius: 1rem;
 }
 
+
+/* =====================================================
+   CONTACT
+===================================================== */
 
 #CONTACTME{
     width: 100%;
     height: 110vh;
     background-color: #122038;
     padding: 0 1rem;
-
 }
 
 #contactme{
     width: 100%;
     height: 70vh;
-    /* background-color: aqua; */
     display: flex;
 }
+
 #contactme1{
     width: 40%;
-    height:70vh ;
-    /* background-color:bisque; */
+    height: 70vh;
     gap: 3rem;
     display: flex;
     flex-direction: column;
     padding-left: 5cqmax;
 }
+
+
+/* =====================================================
+   CONTACT FORM CONTAINER
+===================================================== */
+
 #contactme2{
     width: 59%;
     height: 59vh;
+
     background-color: #0b1424;
+
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+
     margin-top: -2rem;
+    padding: 2rem;
+
     border-radius: 1rem;
+
     box-shadow: -9px 13px 20px #0a58ca;
 
+    transition:
+        box-shadow 0.3s ease,
+        border 0.3s ease;
+}
+
+#contactme2:hover{
+    box-shadow:
+        -9px 13px 25px #0a58ca;
+}
+
+
+/* =====================================================
+   FORM
+===================================================== */
+
+#contactForm{
+    width: 90%;
+    max-width: 850px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+
+/* =====================================================
+   NAME + EMAIL
+===================================================== */
+
+.formm{
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 1.2rem;
+}
+
+
+/* =====================================================
+   FORM GROUP
+===================================================== */
+
+.form-group{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 0.5rem;
+}
+
+
+/* =====================================================
+   LABEL
+===================================================== */
+
+.form-group label{
+    color: #4d8bff;
+
+    font-size: 0.8rem;
+
+    font-weight: 600;
+
+    letter-spacing: 1px;
+
+    transition: 0.25s ease;
+}
+
+
+/* =====================================================
+   INPUT + TEXTAREA
+===================================================== */
+
+#contactForm .inputt{
+
+    width: 100%;
+    height: 52px;
+
+    padding: 0 1rem;
+
+    background-color: #101d35;
+
+    color: #ffffff;
+
+    border: 1px solid transparent;
+
+    border-radius: 8px;
+
+    outline: none;
+
+    font-family: "Roboto", sans-serif;
+
+    font-size: 0.9rem;
+
+    transition:
+        background-color 0.25s ease,
+        border-color 0.25s ease,
+        box-shadow 0.25s ease,
+        transform 0.2s ease;
+}
+
+
+/* =====================================================
+   PLACEHOLDER
+===================================================== */
+
+#contactForm .inputt::placeholder{
+
+    color: #697fa8;
+
+    padding-left: 0;
+
+    opacity: 0.75;
+
+    transition: 0.25s ease;
+}
+
+
+/* =====================================================
+   INPUT HOVER
+===================================================== */
+
+#contactForm .inputt:hover{
+
+    background-color: #122038;
+
+    border-color: rgba(77, 139, 255, 0.35);
 
 }
 
-input::placeholder,
-textarea::placeholder {
-    color:#697fa8;
-   padding-left: 2rem;
-    
+
+/* =====================================================
+   INPUT FOCUS
+===================================================== */
+
+#contactForm .inputt:focus{
+
+    background-color: #122038;
+
+    border-color: #4d8bff;
+
+    box-shadow:
+        0 0 0 3px rgba(77, 139, 255, 0.10),
+        0 0 18px rgba(77, 139, 255, 0.15);
+
+    transform: translateY(-1px);
 }
 
 
+/* =====================================================
+   PLACEHOLDER ON FOCUS
+===================================================== */
 
+#contactForm .inputt:focus::placeholder{
+
+    opacity: 0.35;
+
+}
+
+
+/* =====================================================
+   SUBJECT + MESSAGE
+===================================================== */
+
+.form-fields{
+
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 0.7rem;
+
+    margin-top: 1.2rem;
+
+    margin-bottom: 1.5rem;
+}
+
+
+/* =====================================================
+   TEXTAREA
+===================================================== */
+
+#contactForm textarea.inputt{
+
+    height: 150px;
+
+    padding: 1rem;
+
+    resize: vertical;
+
+    line-height: 1.6;
+
+}
+
+
+/* =====================================================
+   SEND BUTTON
+===================================================== */
+
+.send-btn{
+
+    width: 100%;
+    min-width: 160px;
+
+    height: 50px;
+
+    margin: 0 auto;
+
+    border: none;
+
+    border-radius: 9px;
+
+    background-color: #4d8bff;
+
+    color: #ffffff;
+
+    font-family: "Roboto", sans-serif;
+
+    font-size: 0.95rem;
+
+    font-weight: 600;
+
+    letter-spacing: 0.3px;
+
+    cursor: pointer;
+
+    transition:
+        background-color 0.25s ease,
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+
+/* =====================================================
+   SEND BUTTON HOVER
+===================================================== */
+
+.send-btn:hover{
+
+    background-color: #1c5acb !important;
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 8px 22px rgba(77, 139, 255, 0.25);
+
+    text-shadow:
+        0 0 7px #5687e3 !important;
+}
+
+
+/* =====================================================
+   SEND BUTTON ACTIVE
+===================================================== */
+
+.send-btn:active{
+
+    transform: translateY(0);
+
+}
+
+
+/* =====================================================
+   SEND BUTTON DISABLED
+===================================================== */
+
+.send-btn:disabled{
+
+    opacity: 0.7;
+
+    cursor: not-allowed;
+
+    transform: none;
+
+    box-shadow: none;
+
+}
+
+
+/* =====================================================
+   FORM STATUS
+===================================================== */
+
+#formStatus{
+
+    display: none;
+
+    margin: 14px 0 0;
+
+    min-height: 20px;
+
+    text-align: center;
+
+    font-family: "Roboto", sans-serif;
+
+    font-size: 0.9rem;
+
+    font-weight: 600;
+
+    animation: formStatusFade 0.3s ease;
+}
+
+
+/* =====================================================
+   STATUS ANIMATION
+===================================================== */
+
+@keyframes formStatusFade{
+
+    from{
+
+        opacity: 0;
+
+        transform: translateY(-5px);
+
+    }
+
+    to{
+
+        opacity: 1;
+
+        transform: translateY(0);
+
+    }
+
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
 
 @media screen and (max-width :767px){
 
+    h3{
+        font-size: 14px !important;
+    }
 
-h3{
-    font-size: 14px !important;
-}
-
-b{
-    font-size: 13px !important;
-}
+    b{
+        font-size: 13px !important;
+    }
 
     html,
     body {
         overflow-x: hidden;
-        
+        height: 100%;
+        background-color: rgb(9 17 31) !important;
     }
 
-    
- a{
-    /* display: none !important; */
-    color: #ffffff !important;
- }
 
- .link{
-    display: none;
- }
-  
- #home{
-   
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    height: auto;
-    /* max-width: 80vw !important; */
-    /* background-position: center; */
-    /* background-size: cover !important; */
-    /* overflow: hidden !important; */
-    align-content: center;
-    justify-content: center;
-    align-items: center;
- 
-    padding-top: 5rem;
- }
- 
- #first{
-    width: 80%;
- }
+    /* ================= MOBILE NAVBAR ================= */
 
-h1{
-    width: 100% !important;
-   
-}
+    nav{
+        height: 9vh;
+        padding: 0 1.2rem;
+        justify-content: space-between;
+    }
 
-.parent2{
-    display: none;
-}
- 
-.parent1{
-    width: 85% !important;
-}
-.TwoButton{
-    /* display: flex; */
-    /* flex-direction: column; */
-    width: 100% !important;
-}
+    .nav-logo{
+        width: auto;
+    }
+
+    .nav-links{
+        display: none;
+    }
+
+    .menu-btn{
+        display: block;
+        padding: 0;
+        line-height: 1;
+    }
+
+    .mobile-menu{
+        position: absolute;
+        top: 9vh;
+        left: 0;
+        width: 100%;
+        background-color: rgb(7 11 21);
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 1.5rem;
+        padding: 1.5rem 0;
+
+        transform: translateY(-150%);
+        transition: 0.3s ease;
+
+        box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    }
+
+    .mobile-menu.active{
+        transform: translateY(0);
+    }
+
+    .mobile-menu a{
+        color: #697fa8 !important;
+        text-decoration: none !important;
+        font-size: 1rem;
+        border: none !important;
+    }
+
+    .mobile-menu a:hover{
+        color: #ffffff !important;
+        border: none !important;
+    }
 
 
+    /* ================= HOME ================= */
 
-/* ------------------------------------- */
+    a{
+        color: #ffffff !important;
+    }
 
-.mainABOUT{
-    display: flex;
+    .link{
+        display: none;
+    }
+
+    #home{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: auto;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5rem;
+    }
+
+    #first{
+        width: 80%;
+    }
+
+    h1{
+        width: 100% !important;
+    }
+
+    .parent2{
+        display: none;
+    }
+
+    .parent1{
+        width: 85% !important;
+    }
+
+    .TwoButton{
+        width: 100% !important;
+    }
+
+
+    /* ================= ABOUT ================= */
+
+    .mainABOUT{
+        display: flex;
         flex-direction: column;
         align-content: center;
         justify-content: center;
         align-items: center;
-}
+    }
 
-.image{
-    width: 90vw !important;
-    height: 55vh !important;
-}
+    .image{
+        width: 90vw !important;
+        height: 55vh !important;
+    }
 
+    #aboutme{
+        height: 155%;
+    }
 
-#aboutme{
-    height: 172%;
-}
-.ABOUTME1{
-    height: 15vh;
-}
-.ABOUTME2{
-    height: 60vh;
-}
-.ABOUTME3{
-    width: 100%;
+    .ABOUTME1{
+        height: 15vh;
+    }
+
+    .ABOUTME2{
+        height: 60vh;
+    }
+
+    .ABOUTME3{
+        width: 100%;
         height: auto;
         max-width: 120;
-
         padding: 2rem;
         display: flex;
-        /* overflow: scroll; */
-}
-.space{
+    }
 
-    justify-content: space-between;
+    .space{
+        justify-content: space-between;
         width: 100%;
         display: flex;
         flex-direction: column;
         gap: 0 !important;
-}
+    }
+
+    .spacee{
+        width: 100% !important;
+    }
+
+    .buton1{
+        width: 50% !important;
+    }
 
 
-.spacee{
-   
-    width: 100% !important;
-}
+    /* ================= PROJECTS ================= */
 
-.buton1{
-    width: 50% !important;
-}
+    .MyWork {
+        height: 67vh;
+        background-color: #122038;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 1rem;
+        width: 100%;
+    }
 
+    #PROJECTS {
+        width: 100%;
+        height: auto !important;
+        min-height: 260vh;
+        background-color: rgb(9 17 31);
+    }
 
-/* ----------------------------------------------- */
+    .button_high{
+        width: 58% !important;
+        height: 6vh !important;
+    }
 
-.MyWork {
-    /* width: calc(80% / 3); */
-    height: 67vh;
-    background-color: #122038;
-    border-radius: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 1rem;
-    width: 100%;
-}
+    .Work {
+        width: 100%;
+        height: 200vh;
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+        flex-direction: column;
+    }
 
+    .high_project{
+        height: 45vh !important;
+    }
 
-#PROJECTS {
-    width: 100%;
-    height: auto !important;
-    min-height: 260vh;
-    background-color: rgb(9 17 31);
-
-}
-
-.button_high{
-
-width: 58% !important;
-height: 6vh !important;
-
-}
-.Work {
-    width: 100%;
-    height: 200vh;
-    /* background-color: aqua; */
-    display: flex;
-    justify-content: center;
-    gap: 3rem;
-    flex-direction: column;
-}
-.high_project{
-    height: 45vh !important;
-}
-.WorkSon {
-    height: 40vh;
-}
+    .WorkSon {
+        height: 40vh;
+    }
 
 
-/* ----------------------------------------------------- */
+    /* ================= CONTACT ================= */
 
-#contactme{
-    display: flex;
-    flex-direction: column;
-    height: 135vh;
-}
+    #contactme{
+        display: flex;
+        flex-direction: column;
+        height: 135vh;
+    }
 
-#tall{
-    width: 95% !important;
-}
+    #tall{
+        width: 95% !important;
+    }
 
-#contactme1{
+    #contactme1{
+        width: 100%;
+        padding: 0 13px;
+        gap: 2rem;
+    }
 
-    width: 100%;
-    padding: 0 13px;
-    gap: 2rem;
-}
+    #contactme2{
+        width: 100%;
+        height: 100vh !important;
+        padding: 1rem;
+    }
 
-#contactme2{
-    width: 100%;
-    height: 100vh !important;
-    padding: 1rem;
+    .style_data{
+        width: 100% !important;
+        height: 13vh !important;
+    }
 
-}
+    #CONTACTME{
+        height: 180vh !important;
+    }
 
-.style_data{
-    width: 100% !important;
-    height: 13vh !important;
-}
+    form{
+        width: 100%;
+    }
 
+    .formm{
+        display: flex;
+        flex-direction: column;
+        margin-right: 0 !important;
+    }
 
-#CONTACTME{
-    height: 180vh !important;
-
-}
-
-form{
-    width: 100%;
-}
-
-.formm{
-    display: flex;
-    flex-direction: column;
-    margin-right: 0 !important;
-}
-
-
+    .inputt{
+        width: 100% !important;
+    }
 
 
+    /* ================= FOOTER ================= */
 
-.inputt{
-width: 100% !important;
+    .fotter{
+        gap: 0 !important;
+        width: 100% !important;
+        height: 15vh;
+    }
 
-}
+    footer{
+        height: 30vh !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
 
-
-
-
-
-.fotter{
-    gap: 0 !important;
-width: 100% !important;
-height: 15vh;
-}
-
-footer{
-    height: 30vh !important;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-gap: 2rem;
-}
-.My_name{
-    padding-left: 0 !important;
-    width: 100% !important;
-    justify-content: center;
+    .My_name{
+        padding-left: 0 !important;
+        width: 100% !important;
+        justify-content: center;
+    }
 
 }
+
+/* =====================================================
+   SCROLL REVEAL ANIMATION
+===================================================== */
+
+#home,
+#aboutme,
+#PROJECTS,
+#CONTACTME,
+footer {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+#home.show,
+#aboutme.show,
+#PROJECTS.show,
+#CONTACTME.show,
+footer.show {
+    opacity: 1;
+    transform: translateY(0);
 }

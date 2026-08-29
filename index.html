@@ -7,283 +7,792 @@
     <link rel="stylesheet" href="./index.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 </head>
+
 <body>
-    <nav class="">
-        <div style="width: 50%; display: flex; align-items: center; height: 10vh;">
-    <h2  class="h2">Mohamed</h2>
-</div>
-        <a class="link" href="#home">HOME</a>
-        <a class="link" href="#aboutme">ABOUTME</a>
-        <a class="link" href="#PROJECTS">PROJECTS</a>
-        <a class="link" href="#SKILLS">SKILLS</a>
-        <a class="link" href="#CONTACTME">CONTACTME</a>
-        <button  class="btn btn-dark bg-primary"><a style="width: 20%; color:aliceblue !important;" href="#CONTACTME">Hire Me</a></button>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav>
+        <div class="nav-logo">
+            <h2 class="h2">Mohamed</h2>
+        </div>
+
+        <div class="nav-links">
+            <a class="link" href="#home">HOME</a>
+            <a class="link" href="#aboutme">ABOUTME</a>
+            <a class="link" href="#PROJECTS">PROJECTS</a>
+            <a class="link" href="#SKILLS">SKILLS</a>
+            <a class="link" href="#CONTACTME">CONTACTME</a>
+
+            <button class="hire-btn">
+                <a href="#CONTACTME">Hire Me</a>
+            </button>
+        </div>
+
+        <!-- Burger Button -->
+        <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+            ☰
+        </button>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#home">HOME</a>
+            <a href="#aboutme">ABOUTME</a>
+            <a href="#PROJECTS">PROJECTS</a>
+            <a href="#SKILLS">SKILLS</a>
+            <a href="#CONTACTME">CONTACTME</a>
+            <a href="#CONTACTME">Hire Me</a>
+        </div>
     </nav>
 
-
-
+    <!-- ================= HOME ================= -->
 
     <section id="home">
 
-
-
-
-<div class="parent2 animate__animated animate__backInRight" >
-   
-</div>
-
-
-
-
-        <div  class="parent1 w-85  animate__animated animate__backInDown" style="width: 60%; height: 65vh;  display: flex; align-content: center; justify-items: center; flex-wrap: wrap; align-items: center; align-content: space-between; justify-content: space-around; flex-direction: column;">
-        <div id="first"><ul style="font-size: 1.2rem;"><li style="color: #4d8bff;">Available for work</li></ul></div>
-        <h1  style="color: aliceblue !important; font-size: clamp(2rem, 5vw, 4rem); text-align: center;">Hi, I'm <span style="color: #728bfa !important;">Mohamed Ahmed</span></h1>
-        <h3  style="color: aliceblue !important; font-size: clamp(1rem,3vw,2rem);" >  I'm a <span style="color: #728bfa !important;">Full-Stack Developer</span></h3>
-        <b style="color: #697fa8;">I turn ideas into modern, responsive, and engaging web experiences with clean and efficient code.</b>
-
-        <div class="TwoButton" style="display: flex; justify-content: space-between; width: 50%; gap: 1rem;">
-            <button class="Button1"><a  style="color: #ffffff !important; box-shadow: 1rem #4d8bff;" href="#PROJECTS">View My Work</a></button>
-            <button style="border-radius:10px !important; background-color:#0a101f !important ; border:1px solid #254279; width: 70%; " class="Button"><a style="color: #4d8bff !important; background-color: #0a101f !important;" href="#CONTACTME">Contact Me</a></button>
+        <div class="parent2 animate__animated animate__backInRight">
         </div>
-    </div>
-        
-    </section> 
 
+        <div class="parent1 w-85 animate__animated animate__backInDown"
+            style="width: 60%; height: 65vh; display: flex; align-content: center; justify-items: center; flex-wrap: wrap; align-items: center; align-content: space-between; justify-content: space-around; flex-direction: column;">
 
+            <div id="first">
+                <ul style="font-size: 1.2rem;">
+                    <li style="color: #4d8bff;">Available for work</li>
+                </ul>
+            </div>
 
-    <!-- ------------------------------------------------------------ -->
+            <h1 style="color: aliceblue !important; font-size: clamp(2rem, 5vw, 4rem); text-align: center;">
+                Hi, I'm <span style="color: #728bfa !important;">Mohamed Ahmed</span>
+            </h1>
 
+            <h3 style="color: aliceblue !important; font-size: clamp(1rem,3vw,2rem);">
+                I'm a <span style="color: #728bfa !important;">Full-Stack Developer</span>
+            </h3>
 
+            <b style="color: #697fa8;">
+                I turn ideas into modern, responsive, and engaging web experiences with clean and efficient code.
+            </b>
+
+            <div class="TwoButton" style="display: flex; justify-content: space-between; width: 50%; gap: 1rem;">
+
+                <button class="Button1">
+                    <a style="color: #ffffff !important; box-shadow: 1rem #4d8bff;" href="#PROJECTS">
+                        View My Work
+                    </a>
+                </button>
+
+                <button style="border-radius:10px !important; background-color:#0a101f !important; border:1px solid #254279; width: 70%;" class="Button">
+                    <a style="color: #4d8bff !important; background-color: #0a101f !important;" href="#CONTACTME">
+                        Contact Me
+                    </a>
+                </button>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ================= ABOUT ME ================= -->
 
     <section id="aboutme">
 
-<div class="ABOUTME1">
-    <b style="color: #4d8bff; font-weight: 300;"> // ABOUT ME</b>
-    <h1 style="color: #ffffff; font-weight: 900; display: contents;">Who I Am</h1>
-</div>
-<div class="mainABOUT">
-<div class="ABOUTME2">
-
-<img class="image" style="width: 80%; height: 80vh; border-radius: 2rem; box-shadow: 0px 0px 20px 3px #4d8bff;" src="./AC289AA0-C198-4E12-8D3D-8ACFE69536F5_1_201_a.jpeg" alt="">
-
-
-</div>
-<div class="ABOUTME3">
-    <h2 style="color: #ffffff;">Full-Stack Developer</h2>
-
-    <b style="color:#6a7fa8;">I'm Mohamed Ahmed — a Full-Stack Developer focused on building modern, responsive, and high-quality web applications.
-        <br>
-
-        I work across the full development stack, creating clean and engaging user interfaces with **HTML, CSS, Bootstrap, JavaScript, and React**, while building reliable backend systems and APIs using **.NET**.
-        
-        <br>
-        I enjoy turning ideas into real-world digital experiences, writing clean and maintainable code, and paying attention to the details that make applications fast, responsive, and easy to use.
-        <br>
-        I'm continuously learning, building, and improving — always looking for new challenges that help me grow as a developer and create better solutions.
-        </b>
-
-        <div class="space" style="display: flex; gap: 2rem">
-            <div class="spacee" style="display: flex; width: 40%;flex-direction: column;"><b style="color: #4d8bff;">NAME</b> <h2 style="font-size: 1rem; color: #ffffff;">Mohamed Ahmed Mohamed Kamel</h2></div>
-            <div style="display: flex; width: 40%;flex-direction: column;"><b style="color: #4d8bff;">Email</b> <h2 style="font-size: 1rem; color: #ffffff;">mo7md.ahmed222@gmail.com</h2></div>
-            
+        <div class="ABOUTME1">
+            <b style="color: #4d8bff; font-weight: 300;"> // ABOUT ME</b>
+            <h1 style="color: #ffffff; font-weight: 900; display: contents;">Who I Am</h1>
         </div>
-        <div   style="display: flex; gap: 2rem;">
-            <div style="display: flex; width: 40%;flex-direction: column;"><b style="color: #4d8bff;">Location</b> <h2 style="font-size: 1rem; color: #ffffff;">CAIRO,EGYPT</h2></div>      
-            <div style="display: flex; width: 41%;flex-direction: column;"><b style="color: #4d8bff;">Availability</b> <h2 style="font-size: 1rem; color: #ffffff;">Open to work</h2></div>
 
-            
+        <div class="mainABOUT">
+
+            <div class="ABOUTME2">
+
+                <img class="image"
+                    style="width: 80%; height: 80vh; border-radius: 2rem; box-shadow: 0px 0px 20px 3px #4d8bff;"
+                    src="./AC289AA0-C198-4E12-8D3D-8ACFE69536F5_1_201_a.jpeg"
+                    alt="">
+
+            </div>
+
+            <div class="ABOUTME3">
+
+                <h2 style="color: #ffffff;">Front-End Developer</h2>
+
+                <b style="color:#6a7fa8;">
+                    I'm Mohamed Ahmed — a Front-End Developer focused on building modern, responsive, and high-quality web interfaces.
+                    <br><br>
+
+                    I specialize in creating clean and engaging user experiences using HTML, CSS, Bootstrap, JavaScript, and React, with a strong focus on responsive design, usability, and performance.
+
+                    <br><br>
+
+                    I enjoy turning ideas and designs into real-world digital experiences, writing clean and maintainable code, and paying attention to the details that make websites fast, responsive, and easy to use.
+
+                    <br><br>
+
+                    I'm continuously learning, building, and improving — always looking for new challenges that help me grow as a Front-End Developer and create better digital experiences.
+                </b>
+
+                <div class="space" style="display: flex; gap: 2rem">
+
+                    <div class="spacee" style="display: flex; width: 40%; flex-direction: column;">
+                        <b style="color: #4d8bff;">NAME</b>
+                        <h2 style="font-size: 1rem; color: #ffffff;">Mohamed Ahmed Mohamed Kamel</h2>
+                    </div>
+
+                    <div style="display: flex; width: 40%; flex-direction: column;">
+                        <b style="color: #4d8bff;">Email</b>
+                        <h2 style="font-size: 1rem; color: #ffffff;">mo7md.ahmed222@gmail.com</h2>
+                    </div>
+
+                </div>
+
+                <div style="display: flex; gap: 2rem;">
+
+                    <div style="display: flex; width: 40%; flex-direction: column;">
+                        <b style="color: #4d8bff;">Location</b>
+                        <h2 style="font-size: 1rem; color: #ffffff;">CAIRO,EGYPT</h2>
+                    </div>
+
+                    <div style="display: flex; width: 41%; flex-direction: column;">
+                        <b style="color: #4d8bff;">Availability</b>
+                        <h2 style="font-size: 1rem; color: #ffffff;">Open to work</h2>
+                    </div>
+
+                </div>
+
+                <button class="buton1"
+                    style="width: 25%; color:#ffffff !important; height: 5vh; background-color: #4d8bff;border: 0cap; border-radius: 7px;">
+                    <a style="color:#ffffff !important" href="#home">Download CV</a>
+                </button>
+
+            </div>
         </div>
-        <button class="buton1" style="width: 25%; color:#ffffff !important; height: 5vh; background-color: #4d8bff;border: 0cap; border-radius: 7px;" ><a style="color:#ffffff !important" href="#home">Download CV</a></button>
-</div>
-</div>
-
 
     </section>
-    <!-- --------------------------------------------------- -->
 
+    <!-- ================= PROJECTS ================= -->
 
+    <section id="PROJECTS">
 
+        <div class="high_project"
+            style="width: 100%; height: 40vh; display: flex; flex-wrap: wrap; align-content: center; justify-content: center; flex-direction: column; align-items: center;">
 
+            <b style="color: #4d8bff;">// PROJECTS</b>
 
-<section id="PROJECTS">
+            <h1 style="color: #ffffff; text-align: center;">My Work</h1>
 
-<div class="high_project" style="width: 100%; height: 40vh; display: flex; flex-wrap: wrap;align-content: center;justify-content: center;flex-direction: column;align-items: center;">
-<b style="color: #4d8bff;">// PROJECTS</b>
-<h1 style="color: #ffffff; text-align: center;">My Work</h1>
-<b style="color: #697fa8; padding: 1rem;">A selection of projects I've designed and built — from concept to deployment.</b>
-</div>
+            <b style="color: #697fa8; padding: 1rem;">
+                A selection of projects I've designed and built — from concept to deployment.
+            </b>
 
-<div class="Work">
-    <div class="MyWork"><div class="WorkSon"></div>
-<h1 style="font-size: 1.3rem; color: #ffffff; ">Dr. Hind Clinic — Women’s Healthcare Website</h1>
+        </div>
 
-<b style="font-size: 0.8rem; color: #697fa8; " >A modern, responsive website for Dr. Hind Clinic, featuring doctor information, clinic services, and an easy-to-use online appointment booking system.</b>
-<br>
-<button class="button_high" style="width: 50%; color:#ffffff !important; height: 5vh; background-color: #4d8bff;border: 0cap; border-radius: 7px;" ><a style="color:#ffffff !important" href="https://drhindclinic.vercel.app/"> Open The Website</a></button>
-</div>
-    
+        <div class="Work">
 
+            <div class="MyWork">
 
+                <div class="WorkSon"></div>
 
-<div class="MyWork"><div class="WorkSon"></div>
-<h1 style="font-size: 1.3rem; color: #ffffff; ">Dr. Hind Clinic — Women’s Healthcare Website</h1>
+                <h1 style="font-size: 1.3rem; color: #ffffff;">
+                    Dr. Hind Clinic — Women’s Healthcare Website
+                </h1>
 
-<b style="font-size: 0.8rem; color: #697fa8; " >A modern, responsive website for Dr. Hind Clinic, featuring doctor information, clinic services, and an easy-to-use online appointment booking system.</b>
-<br>
-<button class="button_high" style="width: 50%; color:#ffffff !important; height: 5vh; background-color: #4d8bff;border: 0cap; border-radius: 7px;" ><a style="color:#ffffff !important" href="https://drhindclinic.vercel.app/"> Open The Website</a></button>
-</div>
+                <b style="font-size: 0.8rem; color: #697fa8;">
+                    A modern, responsive website for Dr. Hind Clinic, featuring doctor information, clinic services, and an easy-to-use online appointment booking system.
+                </b>
 
+                <br>
 
+                <button class="button_high"
+                    style="width: 50%; color:#ffffff !important; height: 5vh; background-color: #4d8bff;border: 0cap; border-radius: 7px;">
+                    <a style="color:#ffffff !important" href="https://drhindclinic.vercel.app/">
+                        Open The Website
+                    </a>
+                </button>
 
+            </div>
 
+            <div class="MyWork">
 
-<div class="MyWork"><div class="WorkSon"></div>
-<h1 style="font-size: 1.3rem; color: #ffffff; ">Dr. Hind Clinic — Women’s Healthcare Website</h1>
+                <div class="WorkSon"></div>
 
-<b style="font-size: 0.8rem; color: #697fa8; " >A modern, responsive website for Dr. Hind Clinic, featuring doctor information, clinic services, and an easy-to-use online appointment booking system.</b>
-<br>
-<button class="button_high" style="width: 50%; color:#ffffff !important; height: 5vh; background-color: #4d8bff;border: 0cap; border-radius: 7px;" ><a style="color:#ffffff !important" href="https://drhindclinic.vercel.app/"> Open The Website</a></button>
-</div>
+                <h1 style="font-size: 1.3rem; color: #ffffff;">
+                    Dr. Hind Clinic — Women’s Healthcare Website
+                </h1>
 
+                <b style="font-size: 0.8rem; color: #697fa8;">
+                    A modern, responsive website for Dr. Hind Clinic, featuring doctor information, clinic services, and an easy-to-use online appointment booking system.
+                </b>
 
-    
-</div>
-    
-</section>
+                <br>
 
-<!-- --------------------------------------------------- -->
+                <button class="button_high"
+                    style="width: 50%; color:#ffffff !important; height: 5vh; background-color: #4d8bff;border: 0cap; border-radius: 7px;">
+                    <a style="color:#ffffff !important" href="https://drhindclinic.vercel.app/">
+                        Open The Website
+                    </a>
+                </button>
 
+            </div>
 
+            <div class="MyWork">
 
-<section id="CONTACTME">
-    <div style="width: 100%; height: 40vh; display: flex; flex-wrap: wrap;align-content: center;justify-content: center;flex-direction: column;align-items: center;">
-    <b style="color: #4d8bff;">// contact me   </b>
-    <h1 style="color: #ffffff; text-align: center;">Let's Work Together    </h1>
-    <b id="tall" style="width: 58%; color: #697fa8;text-align: center;">Have a project in mind? I'd love to hear about it. Send me a message and I'll get back to you within 24 hours.    </b>
-</div>
+                <div class="WorkSon"></div>
 
+                <h1 style="font-size: 1.3rem; color: #ffffff;">
+                    Dr. Hind Clinic — Women’s Healthcare Website
+                </h1>
 
+                <b style="font-size: 0.8rem; color: #697fa8;">
+                    A modern, responsive website for Dr. Hind Clinic, featuring doctor information, clinic services, and an easy-to-use online appointment booking system.
+                </b>
 
-<div id="contactme">
-<div id="contactme1">
+                <br>
 
-<div class="style_data" style="    box-shadow: -7px 7px 20px #0a58ca; width: 80%; height: calc(50%/3);background-color: #09111f; display: flex; padding-left: 1rem; align-items: center;border-radius: 1rem;" >
+                <button class="button_high"
+                    style="width: 50%; color:#ffffff !important; height: 5vh; background-color: #4d8bff;border: 0cap; border-radius: 7px;">
+                    <a style="color:#ffffff !important" href="https://drhindclinic.vercel.app/">
+                        Open The Website
+                    </a>
+                </button>
 
-    <div  style="width: 15%;height: 60%; background-color: #ffffff; background-image: url(./mail.png); background-size: cover; background-position: center;"></div>
+            </div>
 
+        </div>
 
+    </section>
 
-    <div style="display: flex;    flex-direction: column; padding: 1rem;">
-    <b style="font-size: medium;font-weight: 300; color: #4d8bff;">Email</b>
-    <h3 style="font-size: 1rem;font-weight: 600; color: #ffffff;">mo7md.ahmed222@gmail.com</h3>
-    <b style="font-size: large; font-weight: 400; color: #6a7fa8;">Send me an email anytime    </b>
-</div>
-</div>
+    <!-- ================= CONTACT ================= -->
 
+    <section id="CONTACTME">
 
-<div class="style_data" style="    box-shadow: -7px 7px 20px #0a58ca; width: 80%; height: calc(50%/3);background-color: #09111f; display: flex; padding-left: 1rem; align-items: center;border-radius: 1rem;" >
+        <div style="width: 100%; height: 40vh; display: flex; flex-wrap: wrap; align-content: center; justify-content: center; flex-direction: column; align-items: center;">
 
-    <div style="width: 15%;height: 60%; background-color: #ffffff; background-image: url(./phone.png); background-size: cover; background-position: center;"></div>
+            <b style="color: #4d8bff;">// contact me</b>
 
+            <h1 style="color: #ffffff; text-align: center;">
+                Let's Work Together
+            </h1>
 
+            <b id="tall" style="width: 58%; color: #697fa8;text-align: center;">
+                Have a project in mind? I'd love to hear about it. Send me a message and I'll get back to you within 24 hours.
+            </b>
 
-    <div style="display: flex;    flex-direction: column; padding: 1rem;">
-    <b style="font-size: medium;font-weight: 300; color: #4d8bff;">Phone</b>
-    <h3 style="font-size: 1rem;font-weight: 600; color: #ffffff;">+201007895697</h3>
-    <b style="font-size: large; font-weight: 400; color: #6a7fa8;">Mon–Fri, 9am–6pm PST    </b>
-</div>
-</div>
+        </div>
 
+        <div id="contactme">
 
-<div class="style_data" style="    box-shadow: -7px 7px 20px #0a58ca; width: 80%; height: calc(50%/3);background-color: #09111f; display: flex; padding-left: 1rem; align-items: center;border-radius: 1rem;" >
+            <div id="contactme1">
 
-    <div style="width: 15%;height: 60%; background-color: #ffffff; background-image: url(./location.png); background-size: cover; background-position: center;"></div>
+                <div class="style_data"
+                    style="box-shadow: -7px 7px 20px #0a58ca; width: 80%; height: calc(50%/3); background-color: #09111f; display: flex; padding-left: 1rem; align-items: center; border-radius: 1rem;">
 
+                    <div style="width: 15%; height: 60%; background-color: #ffffff; background-image: url(./mail.png); background-size: cover; background-position: center;"></div>
 
-    <div style="display: flex;    flex-direction: column; padding: 1rem;">
-    <b style="font-size: medium;font-weight: 300; color: #4d8bff;">Location    </b>
-    <h3 style="font-size: 1rem;font-weight: 600; color: #ffffff;">CAIRO,EGYPT</h3>
-    <b style="font-size: large; font-weight: 400; color: #6a7fa8;">Available for remote worldwide    </b>
-</div>
-</div>
+                    <div style="display: flex; flex-direction: column; padding: 1rem;">
 
-</div>
+                        <b style="font-size: medium;font-weight: 300; color: #4d8bff;">
+                            Email
+                        </b>
+
+                        <h3 style="font-size: 1rem;font-weight: 600; color: #ffffff;">
+                            mo7md.ahmed222@gmail.com
+                        </h3>
+
+                        <b style="font-size: large; font-weight: 400; color: #6a7fa8;">
+                            Send me an email anytime
+                        </b>
+
+                    </div>
+
+                </div>
+
+                <div class="style_data"
+                    style="box-shadow: -7px 7px 20px #0a58ca; width: 80%; height: calc(50%/3); background-color: #09111f; display: flex; padding-left: 1rem; align-items: center; border-radius: 1rem;">
+
+                    <div style="width: 15%; height: 60%; background-color: #ffffff; background-image: url(./phone.png); background-size: cover; background-position: center;"></div>
+
+                    <div style="display: flex; flex-direction: column; padding: 1rem;">
+
+                        <b style="font-size: medium;font-weight: 300; color: #4d8bff;">
+                            Phone
+                        </b>
+
+                        <h3 style="font-size: 1rem;font-weight: 600; color: #ffffff;">
+                            +201007895697
+                        </h3>
+
+                        <b style="font-size: large; font-weight: 400; color: #6a7fa8;">
+                            Mon–Fri, 9am–6pm PST
+                        </b>
+
+                    </div>
+
+                </div>
+
+                <div class="style_data"
+                    style="box-shadow: -7px 7px 20px #0a58ca; width: 80%; height: calc(50%/3); background-color: #09111f; display: flex; padding-left: 1rem; align-items: center; border-radius: 1rem;">
+
+                    <div style="width: 15%; height: 60%; background-color: #ffffff; background-image: url(./location.png); background-size: cover; background-position: center;"></div>
+
+                    <div style="display: flex; flex-direction: column; padding: 1rem;">
+
+                        <b style="font-size: medium;font-weight: 300; color: #4d8bff;">
+                            Location
+                        </b>
+
+                        <h3 style="font-size: 1rem;font-weight: 600; color: #ffffff;">
+                            CAIRO,EGYPT
+                        </h3>
+
+                        <b style="font-size: large; font-weight: 400; color: #6a7fa8;">
+                            Available for remote worldwide
+                        </b>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            ```html
+            <div id="contactme2">
+            
+                <form id="contactForm">
+            
+                    <!-- NAME + EMAIL -->
+                    <div class="formm">
+            
+                        <div class="form-group">
+            
+                            <label for="name">
+                                NAME
+                            </label>
+            
+                            <input
+                                id="name"
+                                class="inputt"
+                                type="text"
+                                placeholder="Please enter your name"
+                                autocomplete="name"
+                                required>
+            
+                        </div>
+            
+            
+                        <div class="form-group">
+            
+                            <label for="email">
+                                EMAIL
+                            </label>
+            
+                            <input
+                                id="email"
+                                class="inputt"
+                                type="email"
+                                placeholder="Please enter your email"
+                                autocomplete="email"
+                                required>
+            
+                        </div>
+            
+                    </div>
+            
+            
+                    <!-- SUBJECT + MESSAGE -->
+                    <div class="form-fields">
+            
+                        <div class="form-group">
+            
+                            <label for="subject">
+                                SUBJECT
+                            </label>
+            
+                            <input
+                                id="subject"
+                                class="inputt"
+                                type="text"
+                                placeholder="Project Inquiry....."
+                                required>
+            
+                        </div>
+            
+            
+                        <div class="form-group">
+            
+                            <label for="message">
+                                MESSAGE
+                            </label>
+            
+                            <textarea
+                                id="message"
+                                class="inputt"
+                                placeholder="Tell Me About Your Project ....."
+                                required></textarea>
+            
+                        </div>
+            
+                    </div>
+            
+            
+                    <!-- SEND BUTTON -->
+                    <button
+                        id="submitBtn"
+                        type="submit"
+                        class="send-btn">
+            
+                        <span>Send Message</span>
+            
+                    </button>
+            
+            
+                    <!-- FORM STATUS -->
+                    <p id="formStatus"></p>
+            
+                </form>
+            
+            </div>
+            ```
+            
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer style="width: 100%;height: 10vh; background-color: #0a101f; display: flex;">
+
+        <div class="My_name"
+            style="width: 30%; background-color: rgb(9 17 31); display: flex; flex-wrap: wrap; align-content: center; padding-left: 7rem;">
+
+            <h2 class="h2">Mohamed</h2>
+
+        </div>
+
+        <div class="fotter"
+            style="width: 70%; background-color: rgb(9 17 31); display: flex; flex-wrap: wrap; justify-content: space-evenly; align-items: center; gap: 12rem;">
+
+            <b style="text-align: center;">
+                © 2026 Mohamed Ahmed. Designed & built with care.
+            </b>
 
-<div id="contactme2">
+            <button style="background-color: #060b15;" class="btn btn-dark">
+                <a style="color: #4d8bff !important;" href="">
+                    Back to top
+                </a>
+            </button>
 
-<form  style="display: flex ba;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    flex-wrap: wrap;">
+        </div>
 
-<div class="formm" style="display: flex; gap: 1rem;">
+    </footer>
 
-    <div class="m-0" style="display: flex; flex-direction: column; gap: 0.5rem; margin-right: 1rem;">
-    <label style="color: #4d8bff;"  for="">NAME</label>
-    <input class="inputt" style="width: 25vw; height: 5vh; border-radius: 8px;  background-color: #101d35;border: 0cap;" type="text" placeholder="Please enter your name" >
-    </div>
-    <div style="display: flex; flex-direction: column;gap: 0.5rem;">
-    <label style="color: #4d8bff;" for="">Email</label>
-    <input class="inputt" style="width: 25vw; height: 5vh; border-radius: 8px;  background-color: #101d35;border: 0cap;" type="text" placeholder="Please enter your Email" >
-    </div>
-    
-</div>
 
+    <!-- ================= BURGER MENU SCRIPT ================= -->
 
+    <script>
 
-<div style="display: flex; flex-direction: column;gap: 0.5rem; margin: 1rem 0 2rem;">
-    <label  style="color: #4d8bff;" for="">Subject    </label>
-    <input  style="width: 100%; height: 5vh; border-radius: 8px;  background-color: #101d35;border: 0cap;" type="text" placeholder="Project Inquiry....." >
+        const menuBtn = document.getElementById("menuBtn");
+        const mobileMenu = document.getElementById("mobileMenu");
 
-    <label style="color:  #4d8bff;" for="">MESSAGE</label>
-    <input  type="text" style=" border: 0cap; background-color: #101d35;height: 20vh; border-radius: 8px;" placeholder="Tell Me About Your Project .....">
-    </div>
+        menuBtn.addEventListener("click", () => {
+            mobileMenu.classList.toggle("active");
+        });
 
+        document.querySelectorAll(".mobile-menu a").forEach(link => {
 
-    <button  style="width: 40%;" class="btn btn-primary inputt">Send Message </button>
+            link.addEventListener("click", () => {
+                mobileMenu.classList.remove("active");
+            });
 
+        });
 
-</form>
+    </script>
 
 
+<script>
+    document.getElementById("home").classList.add("show");
+</script>
 
 
-</div>
-</div>
+<script>
 
-</section>
+    const sections = document.querySelectorAll(
+        "#home, #aboutme, #PROJECTS, #CONTACTME, footer"
+    );
 
-<!-- --------------------------------------------------- -->
+    const observer = new IntersectionObserver(
+        (entries) => {
 
-<footer style="width: 100%;height: 10vh; background-color: #0a101f; display: flex;">
-<div class="My_name" style="width: 30%;
-background-color: rgb(9 17 31);
-display: flex;
-flex-wrap: wrap;
-align-content: center; padding-left: 7rem;">
-    <h2 class="h2">Mohamed</h2>
-</div>
+            entries.forEach((entry) => {
 
-<div class="fotter"  style="width: 70%;
-background-color: rgb(9 17 31);
-display: flex;
-flex-wrap: wrap;
-justify-content: space-evenly;
-align-items: center;
-gap: 12rem;">
-    <b style="text-align: center;">© 2026 Mohamed Ahmed. Designed & built with care.</b>
-    <button style="background-color: #060b15;"  class="btn btn-dark"><a style="color: #4d8bff !important;" href="">Back to top</a></button>
-</div>
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("show");
+                }
 
+            });
 
-</footer>
+        },
+        {
+            threshold: 0.15
+        }
+    );
 
+    sections.forEach((section) => {
+        observer.observe(section);
+    });
 
+</script>
+<!-- <script type="module">
+
+    import { initializeApp }
+        from "https://www.gstatic.com/firebasejs/12.1.0/firebase-app.js";
+
+    import {
+        getFirestore,
+        collection,
+        addDoc,
+        serverTimestamp
+    }
+        from "https://www.gstatic.com/firebasejs/12.1.0/firebase-firestore.js";
+
+
+    // Firebase Configuration
+    const firebaseConfig = {
+
+        apiKey: "AIzaSyC6HgdLBMvQbhTNkRimucA2Jm3vuyIQVdU",
+
+        authDomain: "my-protfolio-f6f99.firebaseapp.com",
+
+        projectId: "my-protfolio-f6f99",
+
+        storageBucket: "my-protfolio-f6f99.firebasestorage.app",
+
+        messagingSenderId: "658837157758",
+
+        appId: "1:658837157758:web:439404136afe24a2ff652f",
+
+        measurementId: "G-YCJX2B9TQR"
+
+    };
+
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+
+    // Initialize Firestore
+    const db = getFirestore(app);
+
+
+    // Get Form
+    const contactForm = document.getElementById("contactForm");
+
+    const submitBtn = document.getElementById("submitBtn");
+
+
+    // Submit Form
+    contactForm.addEventListener("submit", async (event) => {
+
+        event.preventDefault();
+
+
+        // Get values
+        const name = document.getElementById("name").value.trim();
+
+        const email = document.getElementById("email").value.trim();
+
+        const subject = document.getElementById("subject").value.trim();
+
+        const message = document.getElementById("message").value.trim();
+
+
+        // Button loading
+        submitBtn.disabled = true;
+
+        submitBtn.innerText = "Sending...";
+
+
+        try {
+
+            // Save data to Firestore
+            await addDoc(collection(db, "messages"), {
+
+                name: name,
+
+                email: email,
+
+                subject: subject,
+
+                message: message,
+
+                createdAt: serverTimestamp()
+
+            });
+
+
+            // Success message
+            alert("Message sent successfully! ✅");
+
+
+            // Reset form
+            contactForm.reset();
+
+
+        } catch (error) {
+
+            console.error("Firebase Error:", error);
+
+            alert("Failed to send message ❌");
+
+        }
+
+
+        // Enable button
+        submitBtn.disabled = false;
+
+        submitBtn.innerText = "Send Message";
+
+    });
+
+</script> -->
+
+
+
+<script type="module">
+
+    console.log("🔥 FIREBASE SCRIPT LOADED");
+
+
+    import { initializeApp }
+        from "https://www.gstatic.com/firebasejs/12.1.0/firebase-app.js";
+
+    import {
+        getFirestore,
+        collection,
+        addDoc,
+        serverTimestamp
+    }
+        from "https://www.gstatic.com/firebasejs/12.1.0/firebase-firestore.js";
+
+
+    console.log("🔥 FIREBASE MODULES LOADED");
+
+
+    const firebaseConfig = {
+
+        apiKey: "AIzaSyC6HgdLBMvQbhTNkRimucA2Jm3vuyIQVdU",
+
+        authDomain: "my-protfolio-f6f99.firebaseapp.com",
+
+        projectId: "my-protfolio-f6f99",
+
+        storageBucket: "my-protfolio-f6f99.firebasestorage.app",
+
+        messagingSenderId: "658837157758",
+
+        appId: "1:658837157758:web:439404136afe24a2ff652f",
+
+        measurementId: "G-YCJX2B9TQR"
+
+    };
+
+
+    console.log("🔥 Initializing Firebase...");
+
+
+    const app = initializeApp(firebaseConfig);
+
+    console.log("🔥 Firebase initialized");
+
+
+    const db = getFirestore(app);
+
+    console.log("🔥 Firestore initialized");
+
+
+    const contactForm = document.getElementById("contactForm");
+
+const submitBtn = document.getElementById("submitBtn");
+
+const formStatus = document.getElementById("formStatus");
+
+
+contactForm.addEventListener("submit", async (event) => {
+
+    event.preventDefault();
+
+
+    const name = document.getElementById("name").value.trim();
+
+    const email = document.getElementById("email").value.trim();
+
+    const subject = document.getElementById("subject").value.trim();
+
+    const message = document.getElementById("message").value.trim();
+
+
+    // Loading
+    submitBtn.disabled = true;
+
+    submitBtn.innerText = "Sending...";
+
+    formStatus.style.display = "none";
+
+
+    try {
+
+        await addDoc(
+            collection(db, "messages"),
+            {
+                name: name,
+                email: email,
+                subject: subject,
+                message: message,
+                createdAt: serverTimestamp()
+            }
+        );
+
+
+        // Success message
+        formStatus.style.display = "block";
+
+        formStatus.style.color = "#28a745";
+
+        formStatus.innerText = "Message sent successfully!";
+
+
+        // Clear form
+        contactForm.reset();
+
+
+    } catch (error) {
+
+        console.error("Firebase Error:", error);
+
+
+        // Error message
+        formStatus.style.display = "block";
+
+        formStatus.style.color = "#ff4d4d";
+
+        formStatus.innerText =
+            "Failed to send message. Please try again.";
+
+
+    } finally {
+
+        submitBtn.disabled = false;
+
+        submitBtn.innerText = "Send Message";
+
+    }
+
+});
+</script>
 </body>
 </html>
