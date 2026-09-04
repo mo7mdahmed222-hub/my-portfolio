@@ -4,15 +4,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+
+body,html,:root{
+
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background: #08050d !important; 
+  }
+
 *{
     padding: 0%;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 body{
     height: auto;
     width: 100%;
+    background-color: #122038 !important;
 }
 
 
